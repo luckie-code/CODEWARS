@@ -1,0 +1,30 @@
+// Your classmates asked you to copy some paperwork for them. You know that there 
+// are 'n' classmates and the paperwork has 'm' pages.
+// Your task is to calculate how many blank pages do you need. If n < 0 or m < 0 return 0.
+
+function paperwork(n, e){
+    if (m < 0 || n < 0 ){
+        return 0;
+    }
+    return m * n;
+}
+
+function paperwork(n, m) {
+    return n < 0 || m < 0 ? 0 : n * m;
+}
+
+// Given a set of numbers, return the additive 
+// inverse of each. Each positive becomes negatives,
+//  and the negatives become positives.
+
+function inverseArray(num){
+    let arr = []
+
+for (i = 0; i < num.length; i++){
+    arr.push(-num[i])
+}  
+return  arr
+}
+console.log(inverseArray[1,2,3])
+
+const invert = array => array.map(num => -num);
